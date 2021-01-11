@@ -1,0 +1,14 @@
+          Download Git ->Install
+        Bước 01: Tạo repository(Kho source Code) trên Github.com
+        Bước 02: cmd windown -> cd thư mục project hoặc vào trong thư mục chứa project Shift + Click Phải
+        Bước 03: - git init (tạo git trong thư mục)
+                 - git add tên file hoặc "." (dấu chấm add tất cả file trong thư mục)
+                 - git status (xem các file đã up)
+                 - git commit -m "viết mô tả cho công việc này" (VD: " Test git đầu tiên của tui!")
+                 - git remote add origin https://github.com/NguyenLinh0909/testweb.git (link của repository.git)
+                 - git branch -M tên nhánh (tạo nhánh khác để lm bản sao của nhánh chính để test demo perfect ròi pull lên nhánh chính r xóa nhánh bảo sao)
+                 - git push -u origin main (nhánh chính) -> file up lên GitHub (lên GitHub F5 load lại)
+
+ Exception: - git clone https://github.com/NguyenLinh0909/testweb (tải project trên github về thư mục nào đó trong Lap)
+        
+        
